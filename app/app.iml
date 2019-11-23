@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\debug\kotlin;C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\debug\java;C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\release\kotlin;C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\release\java;C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\debugAndroidTest\kotlin;C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\debugUnitTest\kotlin;C:\Users\Angelopolis\AndroidStudioProjects\HolApp\app\src\releaseUnitTest\kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\debug\kotlin;C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\debug\java;C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\release\kotlin;C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\release\java;C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\debugAndroidTest\kotlin;C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\debugUnitTest\kotlin;C:\Users\Angelopolis\Desktop\sistemas_en_red\dsr_holapp\dsr_holapp_client\app\src\releaseUnitTest\kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         signInBtn.setOnClickListener {
-            val intent: Intent = Intent(this, user_profile::class.java)
+            val intent: Intent = Intent(this, FeedFotos::class.java)
             startActivity(intent)
             finish()
         }

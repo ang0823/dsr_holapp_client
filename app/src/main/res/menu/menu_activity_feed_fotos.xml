@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.holapp.FeedFotos">
+
+    <item android:id="@+id/action_perfil"
+        android:title="Perfil"
+        android:orderInCategory="100"
+        app:showAsAction=""/>
+
+    <item android:id="@+id/action_mensaje"
+        android:title="Mensaje"
+        android:orderInCategory="100"
+        app:showAsAction=""/>
+
+    <item android:id="@+id/action_buscar"
+        android:title="Buscar"
+        android:orderInCategory="100"
+        app:showAsAction=""/>
+
+</menu>

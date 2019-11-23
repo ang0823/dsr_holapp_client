@@ -70,11 +70,11 @@ class signUp : AppCompatActivity() {
                 apiAdapter!!.getClientByUsername(username)
 
             client.enqueue(object : Callback<List<Cliente>> {
-                override fun onFailure(call: Call<List<Cliente>>?, t: Throwable?): Boolean {
+                override fun onFailure(call: Call<List<Cliente>>?, t: Throwable?) {
                     title = "Error: "
                     content = "No se pudo conectar a API"
                     makeAlertDialog(title, content)
-                    return registered
+                    return
                 }
 
                 override fun onResponse(

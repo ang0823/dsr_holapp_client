@@ -5,4 +5,5 @@
     <string name="account_data">Datos de la cuenta</string>
     <string name="cancelar">Cancelar</string>
     <string name="finalizar">Finalizar</string>
+    <string name="appName">HolApp</string>
 </resources>
