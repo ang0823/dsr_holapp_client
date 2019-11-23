@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HolApp</string>
+    <string name="registro">Registro en HolApp</string>
+    <string name="client_data">Datos del cliente</string>
+    <string name="account_data">Datos de la cuenta</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="finalizar">Finalizar</string>
+</resources>
