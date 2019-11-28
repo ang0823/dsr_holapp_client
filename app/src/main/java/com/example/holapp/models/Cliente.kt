@@ -1,40 +1,41 @@
 package com.example.holapp.models
 
-class Cliente {
-    var success: Boolean
+class Cliente(var name: String, var paterno: String, var materno: String, var usuario: String, var contrasena: String) {
+    var registered: Boolean = false
         get() {
-            return success
+            return registered
         }
-        set(value) {
-            success = value
-        }
-    var nombre: String
+
+    private var nombre: String?
         get() {
             return nombre
         }
-        set(value) {
-            nombre = value
-        }
-    var apellido_p: String
+
+    var apellido_p: String?
         get() {
             return apellido_p
         }
-        set(value) {
-            apellido_p = value
-        }
-    var apellido_m: String
+
+    var apellido_m: String?
         get() {
             return apellido_m
         }
-        set(value) {
-            apellido_m = value
-        }
-    var username: String
+
+    var username: String?
         get() {
             return username
         }
-        set(value) {
-            username = value
+
+    var password: String?
+        get() {
+            return password
         }
 
+    init {
+        nombre = name
+        apellido_p = paterno
+        apellido_m = materno
+        username = usuario
+        password = contrasena
+    }
 }

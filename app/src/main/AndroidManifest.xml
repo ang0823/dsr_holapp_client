@@ -15,9 +15,10 @@
         <activity android:name=".Mensajes"></activity>
         <activity android:name=".FeedFotos" />
         <activity
-            android:name=".signUp"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".user_profile" />
+            android:name=".SignUp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".Profile" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">

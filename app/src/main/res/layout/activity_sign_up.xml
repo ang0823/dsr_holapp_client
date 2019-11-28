@@ -1,165 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:background="#696665">
 
-    <TextView
-        android:id="@+id/registroLbl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="25dp"
-        android:text="@string/registro"
-        android:textColor="@color/app_color"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/clienteLbl"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/clienteLbl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
-        android:text="@string/client_data"
-        android:textColor="@color/app_color"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/nombreField"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/nombreField"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/app_color"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Nombre(s)"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/paternoField"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/registroLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/registro"
+                android:textColor="@color/app_color"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/clienteLbl"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/paternoField"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/app_color"
-        android:ems="10"
-        android:hint="Apellido paterno"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/maternoField"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/clienteLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/client_data"
+                android:textColor="@color/app_color"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/nombreField"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/maternoField"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="26dp"
-        android:backgroundTint="@color/app_color"
-        android:ems="10"
-        android:hint="Apellido materno"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/cuentaLbl"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/nombreField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="15dp"
+                android:autofillHints=""
+                android:backgroundTint="@color/app_color"
+                android:ems="10"
+                android:hint="Nombre(s)"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/paternoField"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/usernameField"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/app_color"
-        android:ems="10"
-        android:hint="Elegir nombre de usuario"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/passwordField"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/paternoField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/app_color"
+                android:ems="10"
+                android:hint="Apellido paterno"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/maternoField"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/cuentaLbl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
-        android:text="@string/account_data"
-        android:textColor="@color/app_color"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/usernameField"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/maternoField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="26dp"
+                android:backgroundTint="@color/app_color"
+                android:ems="10"
+                android:hint="Apellido materno"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/cuentaLbl"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/passwordField"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/app_color"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/repasswordField"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/cuentaLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/account_data"
+                android:textColor="@color/app_color"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/usernameField"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/repasswordField"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="34dp"
-        android:backgroundTint="@color/app_color"
-        android:ems="10"
-        android:hint="Repetir contraseña"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/cancelarBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/usernameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/app_color"
+                android:ems="10"
+                android:hint="Elegir nombre de usuario"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/passwordField"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/cancelarBtn"
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="27dp"
-        android:background="@drawable/rounded_border"
-        android:text="@string/cancelar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/finalizarBtn"
-        app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/passwordField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/app_color"
+                android:ems="10"
+                android:hint="Contraseña (8-30 caracteres)"
+                android:inputType="textPassword"
+                app:layout_constraintBottom_toTopOf="@+id/repasswordField"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/finalizarBtn"
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="27dp"
-        android:background="@drawable/rounded_button"
-        android:text="@string/finalizar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cancelarBtn" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <EditText
+                android:id="@+id/repasswordField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="34dp"
+                android:backgroundTint="@color/app_color"
+                android:ems="10"
+                android:hint="Repetir contraseña"
+                android:inputType="textPassword"
+                app:layout_constraintBottom_toTopOf="@+id/cancelarBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/finalizarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/finalizar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cancelarBtn" />
+
+            <Button
+                android:id="@+id/cancelarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_border"
+                android:text="@string/cancelar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/finalizarBtn"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

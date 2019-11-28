@@ -13,13 +13,9 @@ interface ApiService {
     @GET("{username}")
     fun getClientByUsername(@Path("username") username: String): Call<List<Cliente>>
 
-    @FormUrlEncoded
+    @Headers("Content-Type: Application/json")
     @POST("/signup")
-    fun createClient(
-        @Field("nombre") nombre: String,
-        @Field("apellido_p") paterno: String,
-        @Field("apellido_m") materno: String,
-        @Field("username") username: String,
-        @Field("password") password: String
-    ): Call<SignUpResponse>
+    fun createClient(@Body client: Cliente): Call<SignUpResponse>
+
+
 }

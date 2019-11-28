@@ -40,7 +40,7 @@ class FeedFotos : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_perfil -> {
-                val intent: Intent = Intent(this, user_profile::class.java)
+                val intent: Intent = Intent(this, Profile::class.java)
                 startActivity(intent)
                 return true
             }
