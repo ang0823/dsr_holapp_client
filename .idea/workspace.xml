@@ -34,7 +34,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mensajes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mensajes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +51,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ZL4223HKX2" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="prueba" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -64,59 +70,140 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
           <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="833">
               <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mensajes.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="53" selection-end-column="15" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_chats.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="50" selection-end-column="15" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_amigos.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ApiAdaper.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Amigos.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/signUp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Mensajes.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ApiService.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/FeedFotos.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding>
+                <element signature="e#28#265#0" expanded="true" />
+              </folding>
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feed_fotos.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -149,6 +236,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/SignUpResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ClientReponse.kt" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/models/Cliente.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ApiService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ApiAdaper.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -159,6 +253,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_feed_fotos.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/user_profile.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/FeedFotos.kt" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/models/Cliente.kt" />
@@ -169,10 +264,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/SignUp.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/holapp/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+=======
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mensajes.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_chats.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_amigos.xml" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="675" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -180,13 +282,21 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+=======
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="ProjectPane" />
+=======
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
@@ -248,10 +358,22 @@
               <item name="HolApp" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
+            <path>
+              <item name="HolApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="HolApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,10 +492,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4976744" visible="true" weight="0.24508321" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14765458" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5023256" side_tool="true" weight="0.1376702" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -386,10 +512,17 @@
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5015129" side_tool="true" weight="0.4222586" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" order="5" sideWeight="0.49848714" visible="true" weight="0.29623568" />
       <window_info anchor="bottom" id="Android Profiler" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.3715221" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3289689" />
+=======
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.49848714" weight="0.16684724" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.7215601" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
       <window_info anchor="bottom" id="Find" order="9" weight="0.29296234" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
@@ -464,6 +597,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -489,6 +623,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+=======
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/app/AppCompatActivity.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/os/Looper.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/khttp/khttp/0.1.0/8ecf1d70e7366b87ffb4133cf1dbe45fed572599/khttp-0.1.0-sources.jar!/khttp/requests/GenericRequest.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/khttp/khttp/0.1.0/8ecf1d70e7366b87ffb4133cf1dbe45fed572599/khttp-0.1.0-sources.jar!/khttp/KHttp.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/SignUpResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
         </state>
       </provider>
     </entry>
@@ -499,6 +643,33 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/models/Cliente.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ApiService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/ApiAdaper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -520,28 +691,56 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_activity_feed_fotos.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer2" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="867">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feed_fotos.xml">
       <provider selected="true" editor-type-id="android-designer2" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="2788">
+          <caret line="164" column="52" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_activity_feed_fotos.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
@@ -549,10 +748,23 @@
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Chats.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Mensajes.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chats.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/menu_chats.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Profile.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -564,42 +776,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/user_profile.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/signUp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Mensajes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/FeedFotos.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
           <folding>
             <element signature="e#28#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feed_fotos.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/IO/response/SignUpResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mensajes.xml">
+<<<<<<< HEAD
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="53" selection-end-column="15" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/models/Cliente.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/Amigos.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_chats.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="50" selection-end-column="15" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/holapp/SignUp.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -607,8 +893,15 @@
           <folding>
             <element signature="e#28#532#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_amigos.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> 4581cbb91272ae65f7032547fe862c262d579eb8
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
       <provider selected="true" editor-type-id="android-designer2" />

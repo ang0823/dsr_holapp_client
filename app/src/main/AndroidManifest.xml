@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Mensajes"></activity>
+        <activity android:name=".Amigos"></activity>
+        <activity android:name=".menu_chats" />
+        <activity android:name=".Chats" />
+        <activity android:name=".Mensajes" />
         <activity android:name=".FeedFotos" />
         <activity
             android:name=".SignUp"
