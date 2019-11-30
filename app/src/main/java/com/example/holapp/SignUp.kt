@@ -3,8 +3,10 @@ package com.example.holapp
 import SignUpResponse
 import android.content.DialogInterface
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -19,10 +21,13 @@ import java.io.IOException
 class SignUp : AppCompatActivity() {
 
     private val apiAdapter = ApiAdaper().getApiService()
+    private val key = "MY_KEY"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
+
+        val prefs = PreferenceManager.getDefaultSharedPreferences(this@SignUp)
 
         cancelarBtn.setOnClickListener {
             val intent: Intent = Intent(this, MainActivity::class.java)
@@ -31,7 +36,7 @@ class SignUp : AppCompatActivity() {
         }
 
         finalizarBtn.setOnClickListener {
-            guardarEnBD()
+            guardarEnBD(prefs)
         }
     }
 
@@ -135,7 +140,7 @@ class SignUp : AppCompatActivity() {
         return fields
     }
 
-    fun guardarEnBD(): Boolean {
+    fun guardarEnBD(prefs: SharedPreferences): Boolean {
         var camposLlenos = validarCampos(getInputData())
 
         if (camposLlenos) {
@@ -148,7 +153,7 @@ class SignUp : AppCompatActivity() {
                     }
                 }.start()
                 if (!nuevo) {
-
+                    Toast.makeText(this@SignUp, "Iniciando registro...", Toast.LENGTH_SHORT).show()
                     try {
                         var nuevo = Cliente(
                             nombreField.text.toString(),
@@ -173,13 +178,9 @@ class SignUp : AppCompatActivity() {
                                         "Usuario guardado con éxito, ya puedes iniciar sesión",
                                         Toast.LENGTH_LONG
                                     ).show()
-                                    nombreField.setText("")
-                                    paternoField.setText("")
-                                    maternoField.setText("")
-                                    usernameField.setText("")
-                                    passwordField.setText("")
-                                    repasswordField.setText("")
-                                    onBackPressed()
+                                    val token = response.body().token
+                                    prefs.edit().putString(key, token).apply()
+                                    finish()
                                 } else if (response!!.code() == 204) {
                                     Toast.makeText(
                                         this@SignUp,

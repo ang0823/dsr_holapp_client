@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".Amigos"></activity>
-        <activity android:name=".menu_chats" />
+        <!--activity android:name=".menu_chats" /-->
         <activity android:name=".Chats" />
         <activity android:name=".Mensajes" />
         <activity android:name=".FeedFotos" />
