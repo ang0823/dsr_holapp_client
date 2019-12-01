@@ -16,7 +16,7 @@ class FeedFotos : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        val builder = AlertDialog.Builder(applicationContext)
+        val builder = AlertDialog.Builder(this)
         builder.setMessage("¿Estás seguro que deseas salir?")
         builder.setCancelable(true)
         builder.setNegativeButton("No", DialogInterface.OnClickListener {dialogInterface, i ->

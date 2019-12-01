@@ -2,7 +2,6 @@ package com.example.holapp
 
 import SignUpResponse
 import android.content.DialogInterface
-import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,38 +20,38 @@ import java.io.IOException
 class SignUp : AppCompatActivity() {
 
     private val apiAdapter = ApiAdaper().getApiService()
-    private val key = "MY_KEY"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        val prefs = PreferenceManager.getDefaultSharedPreferences(this@SignUp)
-
         cancelarBtn.setOnClickListener {
-            val intent: Intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-            finish()
+            val fields = getInputData()
+            if (validarCampos(fields)){
+                val builder = AlertDialog.Builder(this)
+                builder.setTitle("Cancelar Registro")
+                builder.setMessage("¿Seguro que quieres descartar los cambios?")
+                builder.setPositiveButton("Aceptar", { dialogInterface: DialogInterface, i: Int ->
+                    finish()
+                })
+                builder.setNegativeButton("Cancelar", { dialogInterface: DialogInterface, i: Int ->})
+                builder.show()
+            } else {
+                finish()
+            }
         }
 
         finalizarBtn.setOnClickListener {
-            guardarEnBD(prefs)
+            guardarEnBD()
         }
     }
 
     fun validarCampos(fields: ArrayList<String>): Boolean {
-        for (field in fields) {
 
+        for (field in fields) {
             if (field.equals("")) {
-                Toast.makeText(
-                    this@SignUp,
-                    "Faltan campos por llenar",
-                    Toast.LENGTH_LONG
-                )
-                    .show()
                 return false
             }
-
         }
 
         return true
@@ -140,7 +139,7 @@ class SignUp : AppCompatActivity() {
         return fields
     }
 
-    fun guardarEnBD(prefs: SharedPreferences): Boolean {
+    fun guardarEnBD() {
         var camposLlenos = validarCampos(getInputData())
 
         if (camposLlenos) {
@@ -165,7 +164,11 @@ class SignUp : AppCompatActivity() {
 
                         apiAdapter!!.createClient(nuevo).enqueue(object : Callback<SignUpResponse> {
                             override fun onFailure(call: Call<SignUpResponse>?, t: Throwable?) {
-                                Toast.makeText(this@SignUp, t!!.message, Toast.LENGTH_LONG).show()
+                                Toast.makeText(
+                                    this@SignUp,
+                                    "Error de conexión con el servidor",
+                                    Toast.LENGTH_LONG
+                                ).show()
                             }
 
                             override fun onResponse(
@@ -179,7 +182,7 @@ class SignUp : AppCompatActivity() {
                                         Toast.LENGTH_LONG
                                     ).show()
                                     val token = response.body().token
-                                    prefs.edit().putString(key, token).apply()
+                                    val key = usernameField.text.toString()
                                     finish()
                                 } else if (response!!.code() == 204) {
                                     Toast.makeText(
@@ -201,9 +204,14 @@ class SignUp : AppCompatActivity() {
                     }
                 }
             }
+        } else {
+            Toast.makeText(
+                this@SignUp,
+                "Faltan campos por llenar",
+                Toast.LENGTH_LONG
+            )
+                .show()
         }
-
-        return false
     }
 
     fun makeAlertDialog(title: String, content: String) {

@@ -1,6 +1,7 @@
 package com.example.holapp.IO.response
 
 
+import LoginResponse
 import SignUpResponse
 import com.example.holapp.models.Cliente
 import retrofit2.Call
@@ -17,5 +18,7 @@ interface ApiService {
     @POST("/signup")
     fun createClient(@Body client: Cliente): Call<SignUpResponse>
 
-
+    @Headers("Content-Type: Application/json")
+    @POST("/signin")
+    fun signIn(@Header("x-access-token") token: String, @Body client: LoginRequest): Call<LoginResponse>
 }
