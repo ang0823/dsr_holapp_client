@@ -76,10 +76,9 @@ class MainActivity : AppCompatActivity() {
         apiAdapter!!.signIn(token, logged).enqueue(object :
             Callback<LoginResponse> {
             override fun onFailure(call: Call<LoginResponse>?, t: Throwable?) {
-                var response = call!!.execute().body().message
                 Toast.makeText(
                     this@MainActivity,
-                    "onFailure",
+                    "Error de conexión con el servidor",
                     Toast.LENGTH_SHORT
                 ).show()
             }
